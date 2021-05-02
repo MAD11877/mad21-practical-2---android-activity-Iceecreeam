@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
         Button followButton = findViewById(R.id.buttonF);
 
-        User user = new User("MAD", "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", 1, false);
+        User user = new User("MAD", "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", 1, true);
 
         TextView tvName = (TextView)findViewById(R.id.textView);
         tvName.setText(user.getName());
